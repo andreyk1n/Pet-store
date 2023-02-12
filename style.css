@@ -7,6 +7,12 @@ html {
     font-family: monospace;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 /* fonts */
 
 .text-50 {
@@ -141,6 +147,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 8;
 }
 
 nav ul li {
@@ -180,6 +187,7 @@ nav ul li a:hover {
 /* main content */
 
 .main-content {
+    overflow: hidden;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -236,4 +244,29 @@ nav ul li a:hover {
     right: 25.73%;
     top: 31%;
     bottom: 64.71%;
+}
+
+/* animal type */
+
+.animal-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animal-type-item {
+    transition-duration: .8s;
+}
+
+.animal-type-item:hover {
+    filter: brightness(50%);
+}
+
+.animal-type-item-container {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
