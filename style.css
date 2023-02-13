@@ -15,12 +15,20 @@ html {
 
 /* fonts */
 
+.muted {
+    color: #606C8C;
+}
+
 .text-50 {
     font-size: 60px;
 }
 
 .text-20 {
     font-size: 20px;
+}
+
+.text-18 {
+    font-size: 18px;
 }
 
 .text-16 {
@@ -385,4 +393,66 @@ nav ul li a:hover {
 
 .buy-btn:hover {
     background: #052274;
+}
+
+/* sponsors */
+
+.sponsors-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    transition-duration: .8s;
+}
+
+.sponsors-img-container a:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+/* comfort */
+
+.comfort {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comfort-left {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comfort-right {
+    width: 680px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.comfort-item {
+    width: 330px;
+    height: 100px;
+    background: #F4F6FB;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.comfort-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.comfort-right-row1, .comfort-right-row2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
