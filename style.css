@@ -523,3 +523,30 @@ nav ul li a:hover {
     transform: rotate(1deg);
     right: 47%;
 }
+
+/* location */
+
+.location {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.location-left {
+    width: 650px;
+    height: 440px;
+    background: url(./images/map.png);
+}
+
+.location-right {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.location-right p i {
+    color: #1951E7;
+}
