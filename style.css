@@ -10,7 +10,7 @@ html {
 .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 70px;
 }
 
 /* fonts */
@@ -455,4 +455,71 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+/* sales */
+
+.sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sales-content {
+    width: 1100px;
+    background: #91AFF5;
+    border-radius: 20px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-item {
+    width: 480px;
+    height: 240px;
+    display: flex;
+    background-color: white;
+    border: 1px solid #EDF1FB;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    z-index: 4;
+}
+
+.sales-img-container {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 145px;
+    background: url(./images/sales-item.png) no-repeat;
+    background-size: contain;
+}
+
+.sales-item-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.sales-item-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.vector-6 {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+    transform: rotate(1deg);
+    right: 47%;
 }
