@@ -23,6 +23,14 @@ html {
     font-size: 20px;
 }
 
+.text-16 {
+    font-size: 16px;
+}
+
+.text-40 {
+    font-size: 40px;
+}
+
 .white {
     color: white;
 }
@@ -269,4 +277,112 @@ nav ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+/* popular goods */
+
+.popular-goods {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.popular-goods-content {
+    width: 94vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.popular-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.popular-item {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.popular-bg-img-container {
+    width: 285px;
+    height: 285px;
+    background: url(./images/popular-item.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.discount {
+    width: 50px;
+    height: 25px;
+    border-radius: 65px;
+    background: #F77A09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.heart-icon {
+    font-size: 18px;
+    color: #606C8C;
+}
+
+.actual-price {
+    font-size: 18px; 
+    color: #1951E7;
+}
+
+.full-price {
+    font-size: 14px;
+    color: #B3B6C9;
+}
+
+.price-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.goods-name {
+    width: 100%;
+}
+
+.describe-text {
+    font-size: 16px;
+    color: #606C8C;
+}
+
+.buy-btn {
+    width: 170px;
+    height: 40px;
+    background: #1951E7;
+    border-radius: 50px;
+    transition-duration: .8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-btn a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.buy-btn:hover {
+    background: #052274;
 }
