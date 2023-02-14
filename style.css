@@ -19,8 +19,12 @@ html {
     color: #606C8C;
 }
 
-.text-50 {
+.text-60 {
     font-size: 60px;
+}
+
+.text-50 {
+    font-size: 50px;
 }
 
 .text-20 {
@@ -599,4 +603,93 @@ nav ul li a:hover {
 
 .news-item .text-16 {
     color: #606C8C;
+}
+
+/* registrations */
+
+.registrations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrations-content {
+    width: 1190px;
+    height: 480px;
+    background: #FDAC6A;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.reg-left {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.reg-left p {
+    z-index: 6;
+}
+
+.reg-left > div {
+    z-index: 6;
+}
+
+.reg-btn {
+    width: 260px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #41B162;
+    border-radius: 46px;
+    transition-duration: .8s;
+}
+
+.reg-right {
+    z-index: 6;
+}
+
+.reg-btn a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.reg-btn:hover {
+    filter: brightness(80%);
+}
+
+.vector-7 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.7;
+    left: 14.95%;
+    margin-top: -40px;
+}
+
+.vector-8 {
+    position: absolute;
+    left: 72.20%;
+    margin-top: 232px;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.vector-9 {
+    position: absolute;
+    right: 46%;
+    margin-top: 260px;
+}
+
+.vector-10 {
+    position: absolute;
+    right: 20%;
+    margin-top: -260px;
 }
