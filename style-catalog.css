@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: monospace;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+/* fonts */
+
+.muted {
+    color: #606C8C;
+}
+
+.text-60 {
+    font-size: 60px;
+}
+
+.text-50 {
+    font-size: 50px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-40 {
+    font-size: 40px;
+}
+
+.white {
+    color: white;
+}
+
+/* main */
+
+.main {
+    width: 100%;
+    background: #91AFF5;
+}
+
+.take-call-btn {
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition-duration: .8s;
+}
+
+.logo {
+    transition-duration: .8s;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}
+
+.take-call-btn:hover {
+    opacity: 0.5;
+}
+
+.header-phone-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.viber-icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(243, 245, 250, 0.2);
+    border-radius: 34px;
+}
+
+.viber-icon a {
+    font-size: 20px;
+    color: white;
+}
+
+.vk-icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(243, 245, 250, 0.2);
+    border-radius: 34px;
+}
+
+.vk-icon a {
+    font-size: 20px;
+    color: white;
+}
+
+.input-search {
+    width: 300px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 77px;
+    outline: 0;
+    border: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.input-search:hover {
+    outline: 0;
+}
+
+.header-row1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+
+header {
+    /* background-color: #1d3475; */
+    /* background-color: #6F98FF; */
+    background: #91AFF5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-icons-container {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-row2 {
+    width: 1100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 8;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #606C8C;
+    transition-duration: .8s;
+}
+
+nav ul li a:hover {
+    color: #1d3475;
+}
+
+.header-row2-icon-container {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-row2-icon-container a {
+    font-size: 20px;
+    color: #606C8C;
+    transition-duration: .8s;
+}
+
+.header-row2-icon-container a:hover {
+    color: #1d3475;
+}
+
+/* main-content */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 0px;
+}
+
+.free-delivery-left {
+    width: 420px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.free-delivery {
+    width: 900px;
+    height: 240px;
+    background: #91AFF5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vector-12 {
+    position: absolute;
+}
+
+.type-feed {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-feed a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 87px;
+    transition-duration: .8s;
+}
+
+.type-feed a:hover {
+    border: 1px solid #6F98FF;
+}
+
+.filters-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filters-link a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 87px;
+    transition-duration: .8s;
+}
+
+.filters-link a:hover {
+    border: 1px solid #6F98FF;
+}
